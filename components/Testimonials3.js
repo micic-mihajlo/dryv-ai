@@ -5,23 +5,23 @@ import config from "@/config";
 const list = [
   {
     // Optional, use for social media like Twitter. Does not link anywhere but cool to display
-    username: "marclou",
+    username: "busyentrepreneur",
     // REQUIRED
-    name: "Marc Lou",
+    name: "Sarah Jones",
     // REQUIRED
-    text: "Really easy to use. The tutorials are really useful and explains how everything works. Hope to ship my next project really fast!",
+    text: "Dryv has been a game-changer for my productivity. It's like having a personal assistant who anticipates my needs and keeps me on track.",
     // Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-    img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg",
+    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
   },
   {
-    username: "the_mcnaveen",
-    name: "Naveen",
-    text: "Setting up everything from the ground up is a really hard, and time consuming process. What you pay for will save your time for sure.",
+    username: "productivepro",
+    name: "John Smith",
+    text: "I used to struggle with time management, but Dryv has helped me prioritize my tasks and get more done in less time. Highly recommend it!",
   },
   {
-    username: "wahab",
-    name: "Wahab Shaikh",
-    text: "Easily saves 15+ hrs for me setting up trivial stuff. Now, I can directly focus on shipping features rather than hours of setting up the same technologies from scratch. Feels like a super power! :D",
+    username: "timemaster",
+    name: "Emily Chen",
+    text: "Dryv's AI-powered suggestions are incredibly helpful. It's amazing how it can analyze my schedule and find the best times for everything.",
   },
 ];
 
@@ -32,7 +32,7 @@ const Testimonial = ({ i }) => {
   if (!testimonial) return null;
 
   return (
-    <li key={i}>
+    <li key={i} className="animate-appearFromRight">
       <figure className="relative max-w-lg h-full p-6 md:p-10 bg-base-200 rounded-2xl max-md:text-sm flex flex-col">
         <blockquote className="relative flex-1">
           <p className="text-base-content/80 leading-relaxed">
@@ -76,17 +76,17 @@ const Testimonial = ({ i }) => {
 
 const Testimonials3 = () => {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="animate-opacity">
       <div className="py-24 px-8 max-w-7xl mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <div className="mb-8">
             <h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
-              212 makers are already shipping faster!
+              What Our Users Are Saying
             </h2>
           </div>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
-            Don&apos;t take our word for it. Here&apos;s what they have to say
-            about ShipFast.
+            Don&apos;t just take our word for it. Hear from real users who have
+            experienced the transformative power of Dryv.
           </p>
         </div>
 
@@ -104,3 +104,4 @@ const Testimonials3 = () => {
 };
 
 export default Testimonials3;
+

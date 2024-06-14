@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import FeaturesListicle from "@/components/FeaturesListicle";
 import FeaturesGrid from "@/components/FeaturesGrid";
-import Testimonials11 from "@/components/Testimonials11";
+import Testimonials3 from "@/components/Testimonials3";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
@@ -21,7 +21,7 @@ export default function Home() {
         <Problem />
         <FeaturesListicle />
         <FeaturesGrid />
-        <Testimonials11 />
+        <Testimonials3 />
         <Pricing />
         <FAQ />
         <CTA />

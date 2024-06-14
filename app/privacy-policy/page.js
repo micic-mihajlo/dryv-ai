@@ -2,29 +2,6 @@ import Link from "next/link";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
 
-// CHATGPT PROMPT TO GENERATE YOUR PRIVACY POLICY — replace with your own data 👇
-
-// 1. Go to https://chat.openai.com/
-// 2. Copy paste bellow
-// 3. Replace the data with your own (if needed)
-// 4. Paste the answer from ChatGPT directly in the <pre> tag below
-
-// You are an excellent lawyer.
-
-// I need your help to write a simple privacy policy for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - User data collected: name, email and payment information
-// - Non-personal data collection: web cookies
-// - Purpose of Data Collection: Order processing
-// - Data sharing: we do not share the data with any other parties
-// - Children's Privacy: we do not collect any data from children
-// - Updates to the Privacy Policy: users will be updated by email
-// - Contact information: marc@shipfa.st
-
-// Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
-
 export const metadata = getSEOTags({
   title: `Privacy Policy | ${config.appName}`,
   canonicalUrlRelative: "/privacy-policy",
@@ -57,51 +34,112 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: 2023-08-25
+          {`**Privacy Policy for Dryv**
 
-Thank you for visiting ShipFast ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://shipfa.st (the "Website").
+**Last Updated:** October 27, 2023
 
-By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
+Dryv ("us", "we", or "our") operates the Dryv website (the "Service").
 
-1. Information We Collect
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-1.1 Personal Data
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
 
-We collect the following personal information from you:
+**Information Collection and Use**
 
-Name: We collect your name to personalize your experience and communicate with you effectively.
-Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
+We collect several different types of information for various purposes to provide and improve our Service to you.
 
-1.2 Non-Personal Data
+**Types of Data Collected**
 
-We may use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us to enhance your browsing experience, analyze trends, and improve our services.
+**Personal Data**
 
-2. Purpose of Data Collection
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
 
-We collect and use your personal data for the sole purpose of order processing. This includes processing your orders, sending order confirmations, providing customer support, and keeping you updated about the status of your orders.
+* Email address
+* First name and last name
+* Cookies and Usage Data
 
-3. Data Sharing
+**Usage Data**
 
-We do not share your personal data with any third parties except as required for order processing (e.g., sharing your information with payment processors). We do not sell, trade, or rent your personal information to others.
+We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-4. Children's Privacy
+**Tracking & Cookies Data**
 
-ShipFast is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
 
-5. Updates to the Privacy Policy
+Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
 
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and we may notify you via email about significant changes.
+You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
 
-6. Contact Information
+Examples of Cookies we use:
 
-If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
+* **Session Cookies.** We use Session Cookies to operate our Service.
+* **Preference Cookies.** We use Preference Cookies to remember your preferences and various settings.
+* **Security Cookies.** We use Security Cookies for security purposes.
 
-Email: marc@shipfa.st
+**Use of Data**
 
-For all other inquiries, please visit our Contact Us page on the Website.
+Dryv uses the collected data for various purposes:
 
-By using ShipFast, you consent to the terms of this Privacy Policy.`}
+* To provide and maintain the Service
+* To notify you about changes to our Service
+* To allow you to participate in interactive features of our Service
+* To provide customer care and support
+* To provide analysis or valuable information so that we can improve the Service
+* To monitor the usage of the Service
+* To detect, prevent and address technical issues
+
+**Transfer Of Data**
+
+Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+
+Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+
+Dryv will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+
+**Disclosure Of Data**
+
+**Legal Requirements**
+
+Dryv may disclose your Personal Data in the good faith belief that such action is necessary to:
+
+* To comply with a legal obligation
+* To protect and defend the rights or property of Dryv
+* To prevent or investigate possible wrongdoing in connection with the Service
+* To protect the personal safety of users of the Service or the public
+* To protect against legal liability
+
+**Security Of Data**
+
+The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+
+**Service Providers**
+
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+
+**Analytics**
+
+We may use third-party Service Providers to monitor and analyze the use of our Service.
+
+* **Google Analytics**
+  Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
+  You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.
+
+**Links To Other Sites**
+
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+**Children's Privacy**
+
+Our Service does not address anyone under the age of 18 ("Children").
+
+We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+
+
+Thanks for using our Service! Enjoy the Dryv!`}
         </pre>
       </div>
     </main>

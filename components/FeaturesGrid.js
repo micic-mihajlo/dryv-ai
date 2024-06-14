@@ -13,7 +13,7 @@ const features = [
         <Image
           src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           alt="Calendar Integration"
-          className="rounded-t-box h-full object-cover"
+          className="rounded-t-box h-full object-cover animate-appearFromRight"
           width={500}
           height={500}
         />
@@ -43,7 +43,7 @@ const features = [
           },
         ].map((feature, i) => (
           <div
-            className={`p-4 bg-base-100 text-base-content rounded-box flex flex-col gap-2 mb-2 ${feature?.transition}`}
+            className={`p-4 bg-base-100 text-base-content rounded-box flex flex-col gap-2 mb-2 ${feature?.transition} animate-appearFromRight`}
             key={i}
           >
             <p className="font-semibold mb-1">{feature.text}</p>
@@ -70,7 +70,7 @@ const features = [
                 <Image
                   src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
                   alt="Productivity Chart"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover animate-appearFromRight"
                   width={500}
                   height={500}
                 />
@@ -95,7 +95,7 @@ const features = [
         <Image
           src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           alt="Focus Mode"
-          className="w-full h-full object-cover rounded-box"
+          className="w-full h-full object-cover rounded-box animate-appearFromRight"
           width={500}
           height={500}
         />
@@ -105,7 +105,7 @@ const features = [
 ];
 const FeaturesGrid = () => {
   return (
-    <section className="flex justify-center items-center w-full bg-base-200/50 text-base-content py-20 lg:py-32">
+    <section className="flex justify-center items-center w-full bg-base-200/50 text-base-content py-20 lg:py-32 animate-opacity">
       <div className="flex flex-col max-w-[82rem] gap-16 md:gap-20 px-4">
         <h2 className="max-w-3xl font-black text-4xl md:text-6xl tracking-[-0.01em]">
           Work Smarter, <br /> Not Harder
@@ -134,3 +134,4 @@ const FeaturesGrid = () => {
 };
 
 export default FeaturesGrid;
+
