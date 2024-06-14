@@ -1,35 +1,61 @@
-# ShipFast — Javascript
+# Dryv — AI Time Management Assistant
 
-Hey maker 👋 it's Marc from [ShipFast](https://shipfa.st/docs). Let's get your startup off the ground, FAST ⚡️
+Dryv is an AI-powered time management assistant built with Next.js. It helps users optimize their schedules, prioritize tasks, and achieve peak productivity.
 
-<sub>**Watch/Star the repo to be notified when updates are pushed**</sub>
+## Features
 
-## Get Started
+- **Smart Scheduling:** Dryv intelligently schedules your tasks and appointments, considering your availability, deadlines, and priorities.
+- **Task Prioritization:** Prioritize tasks based on urgency and importance using the Eisenhower Matrix.
+- **Time Tracking:** Track time spent on tasks and gain insights into your work patterns.
+- **Focus Mode:** Eliminate distractions and enhance concentration with a dedicated Focus Mode.
+- **Personalized Insights:** Receive personalized recommendations to improve your time management skills.
+- **Calendar Integration:** Connect Dryv to your existing calendar for seamless scheduling.
+- **AI-Powered Task Suggestions:** Get AI-driven suggestions for optimal task scheduling.
+- **Personalized Reports:** Analyze your time usage and productivity with detailed reports.
 
-1. Follow the [Get Started Tutorial](https://shipfa.st/docs) to clone the repo and run your local server 💻
+## Getting Started
 
-<sub>**Looking for the /pages router version?** Use this [documentation](https://shipfa.st/docs-old) instead</sub>
+1. **Clone the repository:**
 
-2. Follow the [Ship In 5 Minutes Tutorial](https://shipfa.st/docs/tutorials/ship-in-5-minutes) to learn the foundation and ship your app quickly ⚡️
+```bash
+git clone https://github.com/your-username/dryv.git
+```
 
-## Links
+2. **Install dependencies:**
 
--   [📚 Documentation](https://shipfa.st/docs)
--   [📣 Updates](https://shipfast.beehiiv.com/)
--   [🧑‍💻 Discord](https://shipfa.st/dashboard)
--   [🥇 Leaderboard](https://shipfa.st/leaderboard)
+```bash
+cd dryv
+npm install
+```
 
-## Support
+3. **Set up environment variables:**
 
-Reach out at marc@shipfa.st
+- Create a `.env.local` file in the root directory.
+- Add the following environment variables, replacing the placeholders with your actual values:
 
-\_
+```
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_next_auth_secret
+GOOGLE_ID=your_google_client_id
+GOOGLE_SECRET=your_google_client_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+MAILGUN_API_KEY=your_mailgun_api_key
+```
 
-Let's ship it, FAST ⚡️
+4. **Start the development server:**
 
-P.S.
+```bash
+npm run dev
+```
 
--   Want to showcase your startups? Get your [Indie Page](https://indiepa.ge?ref=shipfast_readme) and share your entrepreneur's journey. Join 3,132 founders ⭐️
--   Don't get banned from Stripe for 1 dispute. Use [ByeDispute](https://byedispute.com/?ref=shipfast_readme) to prevent them from happenening 🛡️
--   Make your launch go viral and get your first customers with [LaunchViral](https://launchvir.al/?ref=shipfast_readme) 🚀
--   Stop paying 0.4% per Stripe invoices [Zenvoice](https://zenvoice.io/?ref=shipfast_readme) 🤕
+## Deployment
+
+To deploy Dryv, you can use any platform that supports Next.js applications, such as Vercel, Netlify, or AWS.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License.
