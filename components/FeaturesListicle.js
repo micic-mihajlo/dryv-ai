@@ -124,7 +124,7 @@ const features = [
       </svg>
     ),
   },
-  {
+ /*  {
     name: "Focus Mode",
     description: (
       <>
@@ -162,7 +162,7 @@ const features = [
         />
       </svg>
     ),
-  },
+  }, */
   {
     name: "Personalized Insights",
     description: (
